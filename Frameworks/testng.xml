@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ <test thread-count="5" name="Chrome_Test">
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="IE_Test">
+  <parameter name="browser" value="IE"></parameter>
+    <classes>
+      <class name="com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Firefox_Test">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+      <class name="com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Edge_Test">
+  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser"/>
+    </classes>
+   </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+ 

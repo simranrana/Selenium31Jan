@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="IE_Test(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser">
+        <methods>
+          <include name="verifyFundTransfer"/>
+          <include name="openApp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser -->
+    </classes>
+  </test> <!-- IE_Test(failed) -->
+  <test thread-count="5" name="Firefox_Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser">
+        <methods>
+          <include name="verifyFundTransfer"/>
+          <include name="openApp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser -->
+    </classes>
+  </test> <!-- Firefox_Test(failed) -->
+  <test thread-count="5" name="Edge_Test(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser">
+        <methods>
+          <include name="verifyFundTransfer"/>
+          <include name="openApp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- com.webappsecurity.zero.TestScriptsMultiBrowser.VerifyFundsTrsfrMultiBrowser -->
+    </classes>
+  </test> <!-- Edge_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
