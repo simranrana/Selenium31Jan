@@ -19,7 +19,7 @@ public class verifyFundTransferTest extends Base {
 
 	@Test
 	public void verifyFundTransfer() throws IOException {
-		
+		//Changes
 		LogIn lP = new LogIn(driver);
 		AccountSummary aSmry = new AccountSummary(driver);
 		TransferFunds tFunds = new TransferFunds(driver);
