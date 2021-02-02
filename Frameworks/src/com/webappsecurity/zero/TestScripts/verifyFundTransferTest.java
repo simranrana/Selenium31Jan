@@ -25,9 +25,9 @@ public class verifyFundTransferTest extends Base {
 		TransferFunds tFunds = new TransferFunds(driver);
 		TransferFundsVerifyPage trnfVerify = new TransferFundsVerifyPage(driver);
 		TransferFundsConfPage trFundCnf = new TransferFundsConfPage(driver);
-		String[][] data = GenericMethods.getData("G:\\Selenium_19_6\\Frameworks\\TestData\\TestDataSheet.xlsx", "Sheet1");
+		String[][] data = GenericMethods.getData("G:\\Selenium_19_6\\GIT\\GITJan31\\Frameworks\\TestData\\TestDataSheet.xlsx", "Sheet1");
 		
-		for(int i = 0; i<data.length; i++) {
+		for(int i = 1; i<data.length; i++) {
 		lP.applicationLogin(data[i][0], data[i][1]);
 		aSmry.clickTransferFunds();
 		tFunds.doFundTrf(data[i][2], data[i][3]);

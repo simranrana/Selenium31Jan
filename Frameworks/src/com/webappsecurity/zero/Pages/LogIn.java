@@ -34,7 +34,6 @@ public class LogIn {
 		String errMsg = invalUser.getText();
 		return errMsg;
 		
-		
 	}
 	
 	
